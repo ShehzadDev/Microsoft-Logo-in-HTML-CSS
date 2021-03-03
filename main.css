@@ -1,0 +1,47 @@
+/*
+    #f34f1c
+    #7fbc00
+    #ffba01
+    #01a6f0
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid: 1fr;
+}
+.main div {
+    height: 100px;
+    width: 100px;
+    background-color: silver;
+   
+}
+.one:hover{
+    background-color: #f34f1c ;
+    cursor: pointer;
+}
+.two:hover{
+    background-color:#7fbc00 ;
+    cursor: pointer;
+}
+.three:hover{
+    background-color: #ffba01;
+    cursor: pointer;
+}
+.four:hover{
+    background-color: #01a6f0;
+    cursor: pointer;
+}
